@@ -4,6 +4,9 @@
 
 ### Connection
 
+Sensor:
+Adafruit DHT11
+
 GND  -> GND
 VCC  -> 3.3V
 DATA -> GPIO4
