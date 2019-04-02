@@ -35,13 +35,16 @@ if __name__ == "__main__":
 		hr = dt[3]
 		min = dt[4]
 		sec = dt[5]
-
+		#9:00 light off, 21:00 light on
 		if hr == 9 and min == 0:
 			GPIO.output(27, GPIO.LOW)
 		elif hr == 21 and min == 0:
 			GPIO.output(27, GPIO.HIGH)
 
+		#measure sensor
 		measure(channel)
+
+		#capture image
 		camera.start_preview()
         	time.sleep(15)
 		camera.capture('/home/pi/Desktop/img.jpg')
