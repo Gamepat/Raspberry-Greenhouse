@@ -2,8 +2,6 @@
 
 Temperature and humidity sensor connected to a raspberry pi to log the data
 
-[Thingspeak](https://thingspeak.com/channels/694063)
-
 ### Connection
 
 Sensor:
